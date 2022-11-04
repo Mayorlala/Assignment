@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+header{
+    text-align: center;
+    margin-top: 3rem;
+}
+main{
+    display:flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+form{
+    
+    max-width: 60rem;
+    min-width: 30rem;
+    background-color: white;
+    border-radius: 1rem;
+    justify-content: center;
+    padding: 2rem;
+
+}
+label{
+    display:block;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    width: 12rem;
+}
+td{
+    display: flex;
+    gap: 2rem;
+    flex-flow: wrap;
+}
+input:not(.checkbox), select,button{
+    min-height: 2.5rem;
+    border-radius: 0.5rem;
+}
+success-form{
+    background-color: aqua;
+}
+login-form{
+    max-width: 60rem;
+    min-width: 30rem;
+    background-color: white;
+    border-radius: 1rem;
+    justify-content: center;
+    padding: 2rem;
+
+}
