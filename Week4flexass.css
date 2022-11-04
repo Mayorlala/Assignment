@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lexend-deca", sans-serif;
+}
+/*html {
+    font-size: 60.5%;
+}*/
+body{
+    background-color: black;
+}
+main{
+    background-color: hsl(0, 0%, 90%);
+    width: 66%;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    margin: 75px 0px 75px 250px;
+
+}
+.First-content{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 22%;
+    height: 65% ;
+    font-size: 15px;
+    color: white;
+    font-family: "Big Shoulders Display", cursive;
+    font-family: "Lexend Deca", sans-serif;
+}
+.Second-content{
+    background-color: darkcyan;
+    padding: 2em;
+    width: 22%;
+    height: 65%;
+    font-size: 15px;
+    color: white;
+}
+.Third-content{
+    background-color: rgb(0, 36, 36);
+    padding: 2em;
+    width: 22%;
+    height: 65%;
+    font-size: 15px;
+    color: white;
+}
+h2{
+    line-height: 50px;
+}
+button{
+    margin-top: 40px;
+    border-radius: 15px;
+    height: 28px;
+    width: 100px;
+    border-color: white;
+    border-style: none;
+}
+.b-first{
+    color: hsl(31, 77%, 52%) ;
+}
+.b-second{
+    color: darkcyan;
+}
+.b-third{
+    color: rgb(0, 36, 36);
+}
